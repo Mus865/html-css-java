@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>survey form</title>
+   <link rel="stylesheet" href="css/survey.css"/>
+</head>
+<body>
+    <h1>Survey</h1>
+    <form class="survey-form" action="https://learn.nucamp.co/show_everything.php" method="POST">
+        <fieldset>
+            <legend>your information</legend>
+            <div>
+                <label for="first name">first name:</label>
+                <input type="text" id="first name" name="first name" placeholder="your first name"/>
+            </div>
+            <div>
+                <label for="last name">last name</label> 
+                <input  type="text" id="last name" name="last name" placeholder="your last name"/>
+            </div>
+            <div>
+               <label for="your email">your email</label>
+               <input type="email" id="email" name="email" placeholder="your email address"/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>survey questions</legend>
+            <div>
+                Favourite sport: 
+                <input type="radio" id="Baseball" name="sport" value="Baseball"/>
+                <label for="Baseball">Baseball</label>
+                <input type="radio" id= "Rugby" name="sport" value="Rugby"/>
+                <label for="Rugby">Rugby</label>
+                <input type="radio" id="Snowboarding" name="sport" value="Snowboarding"/> 
+                <label for="Snowboarding">Snowboarding</label>
+            </div>
+            <div>
+                Your pets:
+                <input type="checkbox" name="pets" value="cat"/> cat
+                <input type="checkbox" name="pets" value="dog"/> dog
+                <input type="checkbox" name="pets" value="iguana"/> iguana
+            </div>
+        </fieldset>
+        <input type="submit" id="submit-btn"/>
+    </form>
+</body>
+</html>

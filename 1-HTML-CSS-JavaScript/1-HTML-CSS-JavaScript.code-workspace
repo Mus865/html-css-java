@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "1-HTML-CSS-JavaScript",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
